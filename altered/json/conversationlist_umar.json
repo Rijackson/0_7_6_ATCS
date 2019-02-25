@@ -1,0 +1,56 @@
+[
+    {
+        "id":"umar_andor_1",
+        "message":"He asked me for my support, and asked about how to find Lodar.",
+        "replies":[
+            {
+                "text":"Who is Lodar?",
+                "nextPhraseID":"umar_andor_2"
+            }
+        ]
+    },
+    {
+        "id":"umar_conflict_2",
+        "message":"The royal guard, led by Lord Geomyr in Feygard, are trying to ward off the recent increase in illegal activities, and are therefore imposing more restrictions on what is or is not allowed.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"umar_conflict_3"
+            }
+        ]
+    },
+    {
+        "id":"umar_conflict_3",
+        "message":"The priests of the Shadow, mostly seated in Nor City, are opposed to the new restrictions, saying that they limit the ways that they can please the Shadow.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"umar_conflict_4"
+            }
+        ]
+    },
+    {
+        "id":"umar_7",
+        "message":"We try to be above their bickering and differences. They may fight as much as they want, but the Thieves' Guild will outlive them all.",
+        "replies":[
+            {
+                "text":"What differences?",
+                "nextPhraseID":"umar_conflict_1"
+            },
+            {
+                "text":"Tell me more about what Andor asked for.",
+                "nextPhraseID":"umar_andor_1"
+            }
+        ]
+    },
+    {
+        "id":"umar_lodar_2",
+        "message":"However, I heard that you helped us find the key of Luthor. This is something we have been trying to get for a long time.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"umar_lodar_3"
+            }
+        ]
+    }
+]
