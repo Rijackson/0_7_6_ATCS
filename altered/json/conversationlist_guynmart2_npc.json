@@ -1,0 +1,19 @@
+[
+    {
+        "id":"guynmart_wise_200",
+        "message":"Cheddar! I can't believe it!",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"guynmart_wise_202"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"guynmart_wise",
+                "value":90
+            }
+        ]
+    }
+]
