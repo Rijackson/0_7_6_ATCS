@@ -1,0 +1,19 @@
+[
+    {
+        "id":"flail_iron",
+        "iconID":"items_weapons_3:13",
+        "name":"Iron flail",
+        "displaytype":"ordinary",
+        "category":"mace",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":6,
+                "max":14
+            },
+            "increaseAttackCost":6,
+            "increaseAttackChance":8,
+            "increaseCriticalSkill":10,
+            "setCriticalMultiplier":2.0
+        }
+    }
+]
