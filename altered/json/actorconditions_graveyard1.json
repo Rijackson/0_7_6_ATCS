@@ -1,0 +1,15 @@
+[
+    {
+        "id":"contagion2",
+        "iconID":"actorconditions_1:62",
+        "name":"Spore contagion",
+        "category":"blood",
+        "roundEffect":{
+            "visualEffectID":"greenSplash",
+            "increaseCurrentHP":{
+                "min":-3,
+                "max":-1
+            }
+        }
+    }
+]

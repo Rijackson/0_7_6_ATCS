@@ -1,0 +1,15 @@
+[
+    {
+        "id":"poison_blood",
+        "iconID":"actorconditions_1:60",
+        "name":"Blood poisoning",
+        "category":"blood",
+        "roundEffect":{
+            "visualEffectID":"greenSplash",
+            "increaseCurrentHP":{
+                "min":-2,
+                "max":-1
+            }
+        }
+    }
+]
