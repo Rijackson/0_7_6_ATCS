@@ -1,0 +1,27 @@
+[
+    {
+        "id":"algangror_return_d2",
+        "message":"You should probably leave before you tip something over that might ... ahem ... break. He he.",
+        "replies":[
+            {
+                "text":"I was sent by Jhaeld to end whatever it is you are doing to the people of Remgard.",
+                "nextPhraseID":"algangror_fight_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"remgard2",
+                        "value":21
+                    }
+                ]
+            },
+            {
+                "text":"Watch your tongue, witch.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"You are right, I had better leave.",
+                "nextPhraseID":"X"
+            }
+        ]
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "id":"jhaeld_killalg_1",
+        "message":"I find this very hard to believe. For you to have killed Algangror would have been a difficult task, given her power.",
+        "replies":[
+            {
+                "text":"I have brought you her ring as proof that what I say is true.",
+                "nextPhraseID":"jhaeld_killalg_1b",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"algangror_ring",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"No, never mind. I haven't actually defeated her yet.",
+                "nextPhraseID":"jhaeld_alg_26"
+            }
+        ]
+    }
+]
