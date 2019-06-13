@@ -1,0 +1,156 @@
+[
+    {
+        "id":"farrik_select_2",
+        "replies":[
+            {
+                "nextPhraseID":"farrik_return_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"farrik_return_3",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":30
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"farrik_1"
+            }
+        ]
+    },
+    {
+        "id":"farrik_26",
+        "message":"That's very useful information. Well done. You have my thanks, friend.",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"farrik",
+                "value":80
+            }
+        ]
+    },
+    {
+        "id":"farrik_return_1",
+        "message":"Hello again my friend. How goes your mission to get the guard captain drunk?",
+        "replies":[
+            {
+                "text":"I am not done yet, but I am working on it.",
+                "nextPhraseID":"farrik_23"
+            },
+            {
+                "text":"It is done. He should be no problem during the night.",
+                "nextPhraseID":"farrik_24",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":60
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"farrik_22",
+        "message":"How does that sound to you? Do you think you are up to it?",
+        "replies":[
+            {
+                "text":"No, this is really starting to sound like a bad idea.",
+                "nextPhraseID":"farrik_17"
+            },
+            {
+                "text":"Sure, sounds easy!",
+                "nextPhraseID":"farrik_23",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Sounds a bit dangerous, but I guess I'll try.",
+                "nextPhraseID":"farrik_23",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":30,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"farrik_17",
+        "message":"Sure, it's up to you.",
+        "replies":[
+            {
+                "text":"Good luck on your mission.",
+                "nextPhraseID":"farrik_14"
+            },
+            {
+                "text":"Maybe I should tell the guards that you are planning to get him out?",
+                "nextPhraseID":"farrik_15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"farrik_12",
+        "message":"Yeah, I guess so. But for the guild's sake, we would rather have our friend freed than imprisoned.",
+        "replies":[
+            {
+                "text":"Don't worry, your secret plan to free him is safe with me.",
+                "nextPhraseID":"farrik_14"
+            },
+            {
+                "text":"[Lie] Don't worry, your secret plan to free him is safe with me.",
+                "nextPhraseID":"farrik_14"
+            },
+            {
+                "text":"Maybe I should tell the guards that you are planning to get him out?",
+                "nextPhraseID":"farrik_15",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"farrik",
+                        "value":20,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    }
+]
