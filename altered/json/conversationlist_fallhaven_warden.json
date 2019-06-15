@@ -1,0 +1,12 @@
+[
+    {
+        "id":"fallhaven_warden_23",
+        "message":"Thank you again for the information. I'm not sure how you may know this, but I really appreciate you telling me.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"fallhaven_warden_24"
+            }
+        ]
+    }
+]

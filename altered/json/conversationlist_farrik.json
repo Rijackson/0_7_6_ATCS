@@ -152,5 +152,15 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"farrik_6",
+        "message":"The Fallhaven guard has started to get really annoyed with us lately. Probably because we have been very successful in our recent missions.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"farrik_7"
+            }
+        ]
     }
 ]
